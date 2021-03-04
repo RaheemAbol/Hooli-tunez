@@ -1,0 +1,174 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  background-color:#ff0066;
+  
+}
+
+
+.App{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.c-player {
+  display: block;
+  background-color:rgb(36, 36, 36);
+  padding: 50px;
+  border-radius: 16px;
+  box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8), inset 6px 6px 12px rgba(255, 255, 255, 0.4);
+}
+
+.c-player > h4{
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-size: 400;
+  text-align: center;
+}
+
+
+.c-player > p {
+  color: #AAA;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.player-details .details-img {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.player-details .details-img img {
+  display:block;
+  margin: 50px auto;
+  width: 100%;
+  max-width: 250px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.8), -6px -6px 12px rgba(255, 255, 255, 0.4);
+}
+
+.player-details .details-title {
+  color: #EEE;
+  font-size: 28px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.player-details .details-artist {
+  color: #AAA;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.c-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.c-controls .play-btn {
+  display: flex;
+  margin: 0 30px;
+  padding: 20px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8), -4px -4px 10px rgba(255, 255, 255, 0.4), inset -4px -4px 10px rgba(0, 0, 0, 0.4), inset 4px 4px 10px rgba(255, 255, 255, 0.4);
+  border: none;
+  outline:none;
+  background-color:aqua;
+  color: #FFF;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.c-controls .backward-btn {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #888;
+  font-size: 18px;
+}
+
+.c-controls .forward-btn {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #888;
+  font-size: 18px;
+}
+
+.bluetooth {
+  text-align: right;
+  color:#EEE;
+}
+
+.hooli {
+  color: aqua;
+  text-align: center;
+  font-size: 65px;
+  
+}
+.percent {
+  text-align: right;
+  font-size:10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.pause-btn {
+  padding-right: 5px;
+  margin-right: 25px;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #888;
+  font-size: 18px;
+}
+
+.login {
+  display: grid;
+  place-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.login > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login > form > input {
+  width: 350px;
+  height: 50px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: rgb(6, 211, 211);
+}
+
+.login > img {
+  object-fit: contain;
+  height: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
